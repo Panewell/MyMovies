@@ -21,6 +21,16 @@
 		D941AA9918285D6200A8EF21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D941AA7B18285D6100A8EF21 /* UIKit.framework */; };
 		D941AAA118285D6200A8EF21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D941AA9F18285D6200A8EF21 /* InfoPlist.strings */; };
 		D941AAA318285D6200A8EF21 /* MyMoviesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D941AAA218285D6200A8EF21 /* MyMoviesTests.m */; };
+		D941AAAF182861B300A8EF21 /* trailer1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D941AAAC182861B300A8EF21 /* trailer1.mp4 */; };
+		D941AAB0182861B300A8EF21 /* trailer2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D941AAAD182861B300A8EF21 /* trailer2.mp4 */; };
+		D941AAB1182861B300A8EF21 /* trailer3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D941AAAE182861B300A8EF21 /* trailer3.mp4 */; };
+		D941AAB61828637E00A8EF21 /* Trailer1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D941AAB31828637E00A8EF21 /* Trailer1.jpg */; };
+		D941AAB71828637E00A8EF21 /* Trailer2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D941AAB41828637E00A8EF21 /* Trailer2.jpg */; };
+		D941AAB81828637E00A8EF21 /* Trailer3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D941AAB51828637E00A8EF21 /* Trailer3.jpg */; };
+		D941AABF182868B000A8EF21 /* trailer1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D941AABE182868B000A8EF21 /* trailer1ViewController.m */; };
+		D941AAC2182868C700A8EF21 /* trailer2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D941AAC1182868C700A8EF21 /* trailer2ViewController.m */; };
+		D941AAC5182868DF00A8EF21 /* trailer3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D941AAC4182868DF00A8EF21 /* trailer3ViewController.m */; };
+		D941AAC718286C1900A8EF21 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D941AAC618286C1900A8EF21 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +63,19 @@
 		D941AA9E18285D6200A8EF21 /* MyMoviesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyMoviesTests-Info.plist"; sourceTree = "<group>"; };
 		D941AAA018285D6200A8EF21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D941AAA218285D6200A8EF21 /* MyMoviesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMoviesTests.m; sourceTree = "<group>"; };
+		D941AAAC182861B300A8EF21 /* trailer1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = trailer1.mp4; sourceTree = "<group>"; };
+		D941AAAD182861B300A8EF21 /* trailer2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = trailer2.mp4; sourceTree = "<group>"; };
+		D941AAAE182861B300A8EF21 /* trailer3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = trailer3.mp4; sourceTree = "<group>"; };
+		D941AAB31828637E00A8EF21 /* Trailer1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Trailer1.jpg; sourceTree = "<group>"; };
+		D941AAB41828637E00A8EF21 /* Trailer2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Trailer2.jpg; sourceTree = "<group>"; };
+		D941AAB51828637E00A8EF21 /* Trailer3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Trailer3.jpg; sourceTree = "<group>"; };
+		D941AABD182868B000A8EF21 /* trailer1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trailer1ViewController.h; sourceTree = "<group>"; };
+		D941AABE182868B000A8EF21 /* trailer1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = trailer1ViewController.m; sourceTree = "<group>"; };
+		D941AAC0182868C700A8EF21 /* trailer2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trailer2ViewController.h; sourceTree = "<group>"; };
+		D941AAC1182868C700A8EF21 /* trailer2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = trailer2ViewController.m; sourceTree = "<group>"; };
+		D941AAC3182868DF00A8EF21 /* trailer3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trailer3ViewController.h; sourceTree = "<group>"; };
+		D941AAC4182868DF00A8EF21 /* trailer3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = trailer3ViewController.m; sourceTree = "<group>"; };
+		D941AAC618286C1900A8EF21 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D941AAC718286C1900A8EF21 /* MediaPlayer.framework in Frameworks */,
 				D941AA7A18285D6100A8EF21 /* CoreGraphics.framework in Frameworks */,
 				D941AA7C18285D6100A8EF21 /* UIKit.framework in Frameworks */,
 				D941AA7818285D6100A8EF21 /* Foundation.framework in Frameworks */,
@@ -82,6 +106,8 @@
 		D941AA6B18285D6100A8EF21 = {
 			isa = PBXGroup;
 			children = (
+				D941AAB91828674400A8EF21 /* Trailers */,
+				D941AAB21828624600A8EF21 /* Images */,
 				D941AA7D18285D6200A8EF21 /* MyMovies */,
 				D941AA9C18285D6200A8EF21 /* MyMoviesTests */,
 				D941AA7618285D6100A8EF21 /* Frameworks */,
@@ -101,6 +127,7 @@
 		D941AA7618285D6100A8EF21 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D941AAC618286C1900A8EF21 /* MediaPlayer.framework */,
 				D941AA7718285D6100A8EF21 /* Foundation.framework */,
 				D941AA7918285D6100A8EF21 /* CoreGraphics.framework */,
 				D941AA7B18285D6100A8EF21 /* UIKit.framework */,
@@ -126,6 +153,9 @@
 		D941AA7E18285D6200A8EF21 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D941AAAC182861B300A8EF21 /* trailer1.mp4 */,
+				D941AAAD182861B300A8EF21 /* trailer2.mp4 */,
+				D941AAAE182861B300A8EF21 /* trailer3.mp4 */,
 				D941AA7F18285D6200A8EF21 /* MyMovies-Info.plist */,
 				D941AA8018285D6200A8EF21 /* InfoPlist.strings */,
 				D941AA8318285D6200A8EF21 /* main.m */,
@@ -150,6 +180,29 @@
 				D941AA9F18285D6200A8EF21 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D941AAB21828624600A8EF21 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D941AAB31828637E00A8EF21 /* Trailer1.jpg */,
+				D941AAB41828637E00A8EF21 /* Trailer2.jpg */,
+				D941AAB51828637E00A8EF21 /* Trailer3.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		D941AAB91828674400A8EF21 /* Trailers */ = {
+			isa = PBXGroup;
+			children = (
+				D941AABD182868B000A8EF21 /* trailer1ViewController.h */,
+				D941AABE182868B000A8EF21 /* trailer1ViewController.m */,
+				D941AAC0182868C700A8EF21 /* trailer2ViewController.h */,
+				D941AAC1182868C700A8EF21 /* trailer2ViewController.m */,
+				D941AAC3182868DF00A8EF21 /* trailer3ViewController.h */,
+				D941AAC4182868DF00A8EF21 /* trailer3ViewController.m */,
+			);
+			name = Trailers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +253,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "RVC Student";
 				TargetAttributes = {
+					D941AA7318285D6100A8EF21 = {
+						DevelopmentTeam = LAK6SGQ7Q5;
+					};
 					D941AA9418285D6200A8EF21 = {
 						TestTargetID = D941AA7318285D6100A8EF21;
 					};
@@ -229,9 +285,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D941AAB81828637E00A8EF21 /* Trailer3.jpg in Resources */,
+				D941AAB71828637E00A8EF21 /* Trailer2.jpg in Resources */,
 				D941AA9018285D6200A8EF21 /* Images.xcassets in Resources */,
+				D941AAB0182861B300A8EF21 /* trailer2.mp4 in Resources */,
 				D941AA8218285D6200A8EF21 /* InfoPlist.strings in Resources */,
+				D941AAB1182861B300A8EF21 /* trailer3.mp4 in Resources */,
+				D941AAB61828637E00A8EF21 /* Trailer1.jpg in Resources */,
 				D941AA8B18285D6200A8EF21 /* Main.storyboard in Resources */,
+				D941AAAF182861B300A8EF21 /* trailer1.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +312,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D941AAC2182868C700A8EF21 /* trailer2ViewController.m in Sources */,
 				D941AA8418285D6200A8EF21 /* main.m in Sources */,
+				D941AAC5182868DF00A8EF21 /* trailer3ViewController.m in Sources */,
 				D941AA8818285D6200A8EF21 /* MyMoviesAppDelegate.m in Sources */,
+				D941AABF182868B000A8EF21 /* trailer1ViewController.m in Sources */,
 				D941AA8E18285D6200A8EF21 /* MyMoviesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,6 +444,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyMovies/MyMovies-Prefix.pch";
 				INFOPLIST_FILE = "MyMovies/MyMovies-Info.plist";
@@ -392,6 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyMovies/MyMovies-Prefix.pch";
 				INFOPLIST_FILE = "MyMovies/MyMovies-Info.plist";
